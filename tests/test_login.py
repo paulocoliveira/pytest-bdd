@@ -8,8 +8,8 @@ scenarios("../features/login.feature")
 @pytest.fixture
 def driver():
     gridUrl = "hub.lambdatest.com/wd/hub"
-    username = "paulocol"
-    accessKey = "8Yl2j4huUuLPcQIkt54LrxujI0Of43g1vZaSAbBiCi8FRMdi7Y"
+    username = "your-username"
+    accessKey = "your-access-key"
 
     lt_options = {
         "user": username,
